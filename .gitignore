@@ -1,0 +1,21 @@
+# Ignore Jupyter automatic checkpoint folders
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large data (keep your notebook, ignore huge datasets)
+*.fits
+*.npy
+*.npz
+*.hdf5
+data/
+datasets/
+models/
+checkpoints/
+
+# Logs
+*.log
+
